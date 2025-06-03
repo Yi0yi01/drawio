@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.3">
   <diagram name="第 1 页" id="nf3dTdkkemZCYf8O7Rqi">
-    <mxGraphModel dx="1722" dy="2088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,22 +8,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-1" value="OP输入lot号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="156" y="110" width="100" height="30" as="geometry" />
+          <mxGeometry x="706" y="120" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-2" target="i4y8rZ5pq3rduPcjX_Bv-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-2" target="i4y8rZ5pq3rduPcjX_Bv-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-2" value="从MES获取lot相关信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="106" y="180" width="200" height="30" as="geometry" />
+          <mxGeometry x="656" y="190" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-3" target="i4y8rZ5pq3rduPcjX_Bv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-3" value="删除本地程序，从公盘下载测试程式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="106" y="270" width="200" height="30" as="geometry" />
+          <mxGeometry x="656" y="280" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-4" target="i4y8rZ5pq3rduPcjX_Bv-5">
           <mxGeometry relative="1" as="geometry" />
@@ -31,41 +28,41 @@
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-4" target="i4y8rZ5pq3rduPcjX_Bv-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="206" y="400" />
-              <mxPoint x="416" y="400" />
+              <mxPoint x="756" y="410" />
+              <mxPoint x="966" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-4" value="启动测试机原生测试软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="131" y="350" width="150" height="30" as="geometry" />
+          <mxGeometry x="681" y="360" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-5" target="i4y8rZ5pq3rduPcjX_Bv-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-5" value="load测试程式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="420" width="121" height="30" as="geometry" />
+          <mxGeometry x="560" y="430" width="121" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-6" target="i4y8rZ5pq3rduPcjX_Bv-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="416" y="480" />
-              <mxPoint x="216" y="480" />
+              <mxPoint x="966" y="490" />
+              <mxPoint x="766" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-6" value="&lt;div&gt;写入测试记录头信息(LOT_ID,SBLOT_ ID,&lt;/div&gt;&lt;div&gt;ROM_COD,TEST_COD...)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="296" y="420" width="240" height="40" as="geometry" />
+          <mxGeometry x="846" y="430" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-7" value="测试机开始测试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="146" y="510" width="140" height="30" as="geometry" />
+          <mxGeometry x="696" y="520" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-8" value="End lot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="168.5" y="650" width="95" height="30" as="geometry" />
+          <mxGeometry x="718.5" y="660" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-7" target="i4y8rZ5pq3rduPcjX_Bv-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="216" y="560" as="sourcePoint" />
-            <mxPoint x="316" y="560" as="targetPoint" />
+            <mxPoint x="766" y="570" as="sourcePoint" />
+            <mxPoint x="866" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-18" value="监听到产生stdf，上传文件至NAS" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="i4y8rZ5pq3rduPcjX_Bv-17">
@@ -74,8 +71,25 @@
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-2" target="i4y8rZ5pq3rduPcjX_Bv-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-32" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 10px;&quot; face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; line-height: 0%;&quot;&gt;        lotNo: 厂内lot,&lt;br&gt;        customerItem: Customer Device(by 收料),&lt;br&gt;        customerNo: Customer Code,&lt;br&gt;        materialLot: Customer Batch,&lt;br&gt;        operation: 站点名称,&lt;br&gt;        formula: 测试程式,&lt;br&gt;        deviceName: Customer Device(by 工单),&lt;br&gt;        temperature: temperature,&lt;br&gt;        item: PID,&lt;br&gt;        custonNum: 客户序列号,&lt;br&gt;        lotType: 工程/量产,&lt;br&gt;        resourceBo: 测试机编号,&lt;br&gt;        packge: 测试程式压缩包名,&lt;br&gt;        handlerName: handler/prober编号,&lt;br&gt;        testTime: 单次测试时间,&lt;br&gt;        testerVersion: 测试机平台版本,&lt;br&gt;        waferType: Wafer Type,&lt;br&gt;        loadBoardNo: LB编号,&lt;br&gt;        socket: socket编号,&lt;br&gt;        proberCardNo: 针卡编号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=44;pointerEvents=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="820" y="-10" width="370" height="410" as="geometry" />
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-32" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 10px;&quot; face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; line-height: 0%;&quot;&gt;        lotNo: 厂内lot,&lt;br&gt;        customerItem: Customer Device(by 收料),&lt;br&gt;        customerNo: Customer Code,&lt;br&gt;        materialLot: Customer Batch,&lt;br&gt;        operation: 站点名称,&lt;br&gt;        formula: 测试程式,&lt;br&gt;        deviceName: Customer Device(by 工单),&lt;br&gt;        temperature: temperature,&lt;br&gt;        item: PID,&lt;br&gt;        custonNum: 客户序列号,&lt;br&gt;        lotType: 工程/量产,&lt;br&gt;        resourceBo: 测试机编号,&lt;br&gt;        packge: 测试程式压缩包名,&lt;br&gt;        handlerName: handler/prober编号,&lt;br&gt;        testTime: 单次测试时间,&lt;br&gt;        testerVersion: 测试机平台版本,&lt;br&gt;        waferType: Wafer Type,&lt;br&gt;        loadBoardNo: LB编号,&lt;br&gt;        socket: socket编号,&lt;br&gt;        proberCardNo: 针卡编号&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=34;pointerEvents=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="370" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-34" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;通过MES返回的程序名从公盘指定&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;程序并自动load，防止人为手动选&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;择导致用错程序&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="900" y="255" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.007;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-3" target="i4y8rZ5pq3rduPcjX_Bv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-37" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;OP仅需输入lot号，通过lot&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;号自动查询所有相关信息，&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;避免人为手动输入&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="900" y="167.5" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.007;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="i4y8rZ5pq3rduPcjX_Bv-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="856" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.815;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-2" target="i4y8rZ5pq3rduPcjX_Bv-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
