@@ -29,7 +29,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="756" y="410" />
-              <mxPoint x="966" y="410" />
+              <mxPoint x="920" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -45,13 +45,13 @@
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-6" target="i4y8rZ5pq3rduPcjX_Bv-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="966" y="490" />
+              <mxPoint x="920" y="490" />
               <mxPoint x="766" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-6" value="&lt;div&gt;写入测试记录头信息(LOT_ID,SBLOT_ ID,&lt;/div&gt;&lt;div&gt;ROM_COD,TEST_COD...)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="846" y="430" width="240" height="40" as="geometry" />
+          <mxGeometry x="800" y="425" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-7" value="测试机开始测试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="696" y="520" width="140" height="30" as="geometry" />
