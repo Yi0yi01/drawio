@@ -53,14 +53,20 @@
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-6" value="&lt;div&gt;写入测试记录头信息(LOT_ID,SBLOT_ ID,&lt;/div&gt;&lt;div&gt;ROM_COD,TEST_COD...)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="410" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-7" target="i4y8rZ5pq3rduPcjX_Bv-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="i4y8rZ5pq3rduPcjX_Bv-7" value="测试机开始测试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="500" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-8" value="End lot，OP关闭UI/手动点击按钮上传数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="567" width="250" height="35" as="geometry" />
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-8" value="End lot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="640" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4y8rZ5pq3rduPcjX_Bv-7" target="i4y8rZ5pq3rduPcjX_Bv-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="sourcePoint" />
+            <mxPoint x="480" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4y8rZ5pq3rduPcjX_Bv-18" value="监听到产生stdf，上传文件至NAS" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="i4y8rZ5pq3rduPcjX_Bv-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
